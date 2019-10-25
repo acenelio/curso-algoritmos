@@ -14,7 +14,7 @@ int main(){
     int idades[n];
     double alturas[n];
 
-    for(int i=0; i<n; i++){
+    for (int i=0; i<n; i++) {
         cout << "Dados da " << i + 1 << "a pessoa:" << endl;
         cout << "Nome: ";
         cin >> nomes[i];
@@ -24,8 +24,8 @@ int main(){
         cin >> alturas[i];
     }
 
-    for(int i=0; i<n; i++){
-        if(idades[i] < 16){
+    for (int i=0; i<n; i++) {
+        if (idades[i] < 16) {
             nmenores++;
         }
         alturatotal = alturatotal + alturas[i];
