@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -26,6 +26,6 @@ int main(){
     cout << "Alcool: " << alcool << endl;
     cout << "Gasolina: " << gasolina << endl;
     cout << "Diesel: " << diesel << endl;
-	
+
 	return 0;
 }

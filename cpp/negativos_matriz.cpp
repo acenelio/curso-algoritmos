@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -12,8 +12,8 @@ int main(){
 
     int matriz[m][n];
 
-    for(int i=0; i<m; i++){
-        for(int j=0; j<n; j++){
+    for (int i=0; i<m; i++) {
+        for (int j=0; j<n; j++) {
             cout << "Elemento [" << i << "," << j << "]: ";
             cin >> matriz[i][j];
         }
@@ -21,8 +21,8 @@ int main(){
 
     cout << "VALORES NEGATIVOS:" << endl;
 
-    for(int i=0; i<m; i++){
-        for(int j=0; j<n; j++){
+    for (int i=0; i<m; i++) {
+        for (int j=0; j<n; j++) {
             if(matriz[i][j] < 0){
                 cout << matriz[i][j] << endl;
             }

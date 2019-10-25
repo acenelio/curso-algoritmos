@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -12,12 +12,12 @@ int main(){
 
     double vetor[n];
 
-    for(int i=0; i<n; i++){
+    for (int i=0; i<n; i++) {
         cout << "Digite um numero: ";
         cin >> vetor[i];
     }
 
-    for(int i=0; i<n; i++){
+    for (int i=0; i<n; i++) {
         soma = soma + vetor[i];
     }
 
@@ -26,8 +26,8 @@ int main(){
     cout << fixed << setprecision(1);
     cout << "VALORES = ";
 
-    for(int i=0; i<n; i++){
-        if(i != 0){
+    for (int i=0; i<n; i++) {
+        if (i != 0) {
             cout << " ";
         }
         cout << vetor[i];

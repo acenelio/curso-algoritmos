@@ -1,17 +1,17 @@
-#include<iostream>
-#include<iomanip>
-#include<math.h>
+#include <iostream>
+#include <iomanip>
+#include <cmath>
 
 using namespace std;
 
 int main(){
     int n, indlinha, indcoluna;
-    double somapositivos = 0;
+    double somapositivos;
 
     cout << "Qual a ordem da matriz? ";
     cin >> n;
 
-    double matriz[n][n], alterada[n][n];
+    double matriz[n][n];
 
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
@@ -20,6 +20,7 @@ int main(){
         }
     }
 
+    somapositivos = 0;
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             if(matriz[i][j] > 0){
@@ -52,11 +53,7 @@ int main(){
     cout << endl << endl << "DIAGONAL PRINCIPAL: ";
 
     for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            if(i == j){
-                cout << matriz[i][j] << " ";
-            }
-        }
+        cout << matriz[i][i] << " ";
     }
 
     for(int i=0; i<n; i++){

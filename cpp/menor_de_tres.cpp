@@ -1,27 +1,27 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 int main(){
-    int primeiro, segundo, terceiro, menor;
+    int a, b, c, menor;
 
     cout << "Primeiro valor: ";
-    cin >> primeiro;
+    cin >> a;
 
     cout << "Segundo valor: ";
-    cin >> segundo;
+    cin >> b;
 
     cout << "Terceiro valor: ";
-    cin >> terceiro;
+    cin >> c;
 
-    if(primeiro < segundo && primeiro < terceiro){
-        menor = primeiro;
+    if (a < b && a < c) {
+        menor = a;
     }
-    else if(segundo < primeiro && segundo < terceiro){
-        menor = segundo;
+    else if (b < c) {
+        menor = b;
     }
-    else{
-        menor = terceiro;
+    else {
+        menor = c;
     }
 
     cout << "MENOR = " << menor << endl;

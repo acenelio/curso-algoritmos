@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -27,7 +27,7 @@ int main(){
         if(alturas[i] > maioraltura){
             maioraltura = alturas[i];
         }
-        else if(alturas[i] < menoraltura){
+        if(alturas[i] < menoraltura){
             menoraltura = alturas[i];
         }
     }

@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -20,6 +20,6 @@ int main(){
 
     cout << fixed << setprecision(2);
     cout << "TROCO = " << troco << endl;
-	
+
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -25,6 +25,6 @@ int main(){
         cout << "Digite os valores das coordenadas X e Y:" << endl;
         cin >> x >> y;
     }
-	
+
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -17,12 +17,9 @@ int main(){
 
     cout << endl << "NUMEROS PARES:" << endl;
 
-    for(int i=0; i<n; i++){
-        if(i != 0 && vetor[i] % 2 == 0){
-            cout << " ";
-        }
+    for (int i=0; i<n; i++) {
         if(vetor[i] % 2 == 0){
-            cout << vetor[i];
+            cout << vetor[i] << " ";
             qtdpares++;
         }
     }

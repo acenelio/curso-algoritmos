@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int main(){
     cout << fixed << setprecision(1);
     cout << "NOTA FINAL = " << notafinal << endl;
 
-    if(notafinal < 60.0){
+    if (notafinal < 60.0) {
         cout << "REPROVADO" << endl;
     }
 

@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -13,12 +13,12 @@ int main(){
             x++;
         }
 
-        soma = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
+        soma = 5 * x + 20;
         cout << "SOMA = " << soma << endl;
 
         cout << "Digite um numero inteiro: ";
         cin >> x;
     }
-	
+
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -8,10 +8,10 @@ int main(){
     cout << "Digite dois numeros inteiros:" << endl;
     cin >> num1 >> num2;
 
-    if(num1 % num2 == 0 || num2 % num1 == 0){
+    if (num1 % num2 == 0 || num2 % num1 == 0) {
         cout << "Sao multiplos" << endl;
     }
-    else{
+    else {
         cout << "Nao sao multiplos" << endl;
     }
 

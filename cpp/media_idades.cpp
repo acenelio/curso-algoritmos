@@ -1,11 +1,11 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main(){
     int idade, npessoas = 0;
-    double media = 0;
+    double soma = 0, media;
 
     cout << "Digite as idades:" << endl;
     cin >> idade;
@@ -15,16 +15,16 @@ int main(){
     }
     else{
         while(idade >= 0){
-            media = media + idade;
+            soma = soma + idade;
             npessoas++;
             cin >> idade;
         }
 
-        media = media / npessoas;
+        media = soma / npessoas;
 
         cout << fixed << setprecision(2);
         cout << "MEDIA = " << media << endl;
     }
-	
+
 	return 0;
 }

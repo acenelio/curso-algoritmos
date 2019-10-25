@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main(){
     cout << "Digite o valor do raio do circulo: ";
     cin >> r;
 
-    area = 3.14159 * (r * r);
+    area = 3.14159 * r * r;
 
     cout << fixed << setprecision(3);
     cout << "AREA = " << area << endl;

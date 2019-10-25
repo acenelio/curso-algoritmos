@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -12,18 +12,18 @@ int main(){
 
     cout << fixed << setprecision(2);
 
-    if(escala == 'F'){
+    if (escala == 'F') {
         cout << "Digite a temperatura em Fahrenheit: ";
         cin >> fahrenheit;
 
-        celsius = (fahrenheit - 32) * 5 / 9;
+        celsius = 5.0 / 9.0 * (fahrenheit - 32.0);
         cout << "Temperatura equivalente em Celsius: " << celsius << endl;
     }
-    else{
+    else {
         cout << "Digite a temperatura em Celsius: ";
         cin >> celsius;
 
-        fahrenheit = (celsius * 9 / 5) + 32;
+        fahrenheit = celsius * 9.0 / 5.0 + 32.0;
         cout << "Temperatura equivalente em Fahrenheit: " << fahrenheit << endl;
     }
 

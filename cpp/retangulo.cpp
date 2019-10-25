@@ -1,6 +1,6 @@
-#include<iostream>
-#include<iomanip>
-#include<math.h>
+#include <iostream>
+#include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -18,11 +18,11 @@ int main(){
     cout << fixed << setprecision(4);
     cout << "AREA = " << area << endl;
 
-    perimetro = 2 * base + 2 * altura;
+    perimetro = 2 * (base + altura);
 
     cout << "PERIMETRO = " << perimetro << endl;
 
-    diagonal = sqrt((base * base) + (altura * altura));
+    diagonal = sqrt(base * base + altura * altura);
 
     cout << "DIAGONAL = " << diagonal << endl;
 

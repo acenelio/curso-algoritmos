@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -18,12 +18,12 @@ int main(){
 
     cout << fixed << setprecision(2);
 
-    if(preco * qtd > dinheiro){
-        faltam = (preco * qtd) - dinheiro;
+    if (preco * qtd > dinheiro) {
+        faltam = preco * qtd - dinheiro;
         cout << "DINHEIRO INSUFICIENTE. FALTAM " << faltam << endl;
     }
-    else{
-        troco = dinheiro - (preco * qtd);
+    else {
+        troco = dinheiro - preco * qtd;
         cout << "TROCO = " << troco << endl;
     }
 

@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -14,7 +15,9 @@ int main(){
 
     for(int i=0; i<n; i++){
         cout << "Digite nome, primeira e segunda nota do " << i + 1 << "o aluno:" << endl;
-        cin >> nomes[i] >> notas1[i] >> notas2[i];
+        cin.ignore(INT_MAX, '\n'); // --------------> limpeza de buffer
+        getline(cin, nomes[i]);
+        cin >> notas1[i] >> notas2[i];
     }
 
     cout << "Alunos aprovados:" << endl;

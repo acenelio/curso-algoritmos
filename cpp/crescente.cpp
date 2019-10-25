@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -19,6 +19,6 @@ int main(){
         cout << "Digite outros dois numeros:" << endl;
         cin >> x >> y;
     }
-	
+
 	return 0;
 }

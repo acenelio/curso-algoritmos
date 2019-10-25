@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -24,10 +24,14 @@ int main(){
         }
     }
 
-    mediapares = (double)somapares / npares;
+    if (npares == 0) {
+        cout << "NENHUM NUMERO PAR" << endl;
+    }
+    else {
+        mediapares = (double)somapares / npares;
 
-    cout << fixed << setprecision(1);
-    cout << "MEDIA DOS PARES = " << mediapares << endl;
-
+        cout << fixed << setprecision(1);
+        cout << "MEDIA DOS PARES = " << mediapares << endl;
+    }
     return 0;
 }

@@ -1,5 +1,5 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -14,17 +14,17 @@ int main(){
 
     double matriz[m][n], vetor[m];
 
-    for(int i=0; i<m; i++){
+    for (int i=0; i<m; i++) {
         cout << "Digite os elementos da " << i + 1 << "a. linha:" << endl;
 
-        for(int j=0; j<n; j++){
+        for (int j=0; j<n; j++) {
             cin >> matriz[i][j];
         }
     }
 
-    for(int i=0; i<m; i++){
+    for (int i=0; i<m; i++) {
         somalinha = 0;
-        for(int j=0; j<n; j++){
+        for (int j=0; j<n; j++) {
             somalinha = somalinha + matriz[i][j];
         }
         vetor[i] = somalinha;
