@@ -9,7 +9,7 @@ int main(){
     printf("Hora final: ");
     scanf("%d", &hfinal);
 
-    if(hinicial < hfinal) {
+    if (hinicial < hfinal) {
         printf ("O JOGO DUROU %d HORA(S)\n", hfinal - hinicial);
     }
     else {

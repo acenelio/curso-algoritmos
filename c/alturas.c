@@ -36,8 +36,8 @@ int main(){
 	printf("\nAltura media = %.2lf\n", alturamedia);
     printf("Pessoas com menos de 16 anos: %.1lf%%\n", percentualMenores);
 
-    for(int i=0; i<n; i++){
-        if(idades[i] < 16){
+    for(int i=0; i<n; i++) {
+        if (idades[i] < 16) {
             printf("%s\n", nomes[i]);
         }
     }

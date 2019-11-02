@@ -6,7 +6,7 @@ int main(){
     printf("Digite a primeira nota: ");
     scanf("%lf", &nota1);
 
-    while(nota1 < 0 || nota1 > 10) {
+    while (nota1 < 0 || nota1 > 10) {
         printf("Valor invalido! Tente novamente: ");
 		scanf("%lf", &nota1);
     }
@@ -14,7 +14,7 @@ int main(){
     printf("Digite a segunda nota: ");
     scanf("%lf", &nota2);
 
-    while(nota2 < 0 || nota2 > 10) {
+    while (nota2 < 0 || nota2 > 10) {
         printf("Valor invalido! Tente novamente: ");
         scanf("%lf", &nota2);
     }

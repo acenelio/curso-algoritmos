@@ -18,7 +18,7 @@ int main(){
     posmaior = 0;
 
     for (int i=1; i<n; i++) {
-        if(vetor[i] > maior) {
+        if (vetor[i] > maior) {
             maior = vetor[i];
             posmaior = i;
         }

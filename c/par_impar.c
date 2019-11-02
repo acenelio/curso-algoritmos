@@ -17,14 +17,14 @@ int main(){
             if (valor % 2 == 0) {
                 printf("PAR");
             }
-            else{
+            else {
                 printf("IMPAR");
             }
 
-            if(valor > 0){
+            if(valor > 0) {
                 printf(" POSITIVO\n");
             }
-            else{
+            else {
                 printf(" NEGATIVO\n");
             }
         }

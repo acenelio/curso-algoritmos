@@ -16,7 +16,7 @@ int main(){
     printf("NUMEROS NEGATIVOS:\n");
 
     for (int i=0; i<n; i++) {
-        if(vetor[i] < 0){
+        if (vetor[i] < 0) {
             printf("%d\n", vetor[i]);
         }
     }

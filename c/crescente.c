@@ -7,7 +7,7 @@ int main(){
     scanf("%d %d", &x, &y);
 
     while (x != y) {
-        if(x > y) {
+        if (x > y) {
             printf("DECRESCENTE!\n");
         }
         else {

@@ -30,7 +30,7 @@ int main(){
 
     printf("VETOR GERADO:\n");
 
-    for(int i=0; i<m; i++) {
+    for (int i=0; i<m; i++) {
         printf("%.1lf\n", vetor[i]);
     }
 

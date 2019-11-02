@@ -18,7 +18,7 @@ int main(){
     for (int i=0; i<n; i++) {
         maior = matriz[i][0];
         for (int j=1; j<n; j++) {
-            if(maior < matriz[i][j]) {
+            if (maior < matriz[i][j]) {
                 maior = matriz[i][j];
             }
         }

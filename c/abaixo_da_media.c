@@ -9,13 +9,13 @@ int main(){
 
     double vetor[n];
 
-    for(int i=0; i<n; i++) {
+    for (int i=0; i<n; i++) {
         printf("Digite um numero: ");
 		scanf("%lf", &vetor[i]);
     }
 
 	soma = 0;
-    for(int i=0; i<n; i++) {
+    for (int i=0; i<n; i++) {
         soma = soma + vetor[i];
     }
 
@@ -24,8 +24,8 @@ int main(){
 	printf("\nMEDIA DO VETOR = %.3lf\n", media);
 	printf("ELEMENTOS ABAIXO DA MEDIA:\n", media);
 
-    for(int i=0; i<n; i++) {
-        if(vetor[i] < media) {
+    for (int i=0; i<n; i++) {
+        if (vetor[i] < media) {
             printf("%.1lf\n", vetor[i]);
         }
     }
