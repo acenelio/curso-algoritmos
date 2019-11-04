@@ -29,5 +29,6 @@ int main(){
 
         printf("MEDIA DOS PARES = %.1lf\n", mediapares);
     }
+	
     return 0;
 }

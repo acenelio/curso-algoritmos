@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soma_vetores", "soma_vetores\soma_vetores.csproj", "{9E10DABC-CD55-48DF-A3FC-BC2C7540F5FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E10DABC-CD55-48DF-A3FC-BC2C7540F5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E10DABC-CD55-48DF-A3FC-BC2C7540F5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E10DABC-CD55-48DF-A3FC-BC2C7540F5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E10DABC-CD55-48DF-A3FC-BC2C7540F5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68A61A3-C7C9-439C-AFF8-258D61C5DB03}
+	EndGlobalSection
+EndGlobal

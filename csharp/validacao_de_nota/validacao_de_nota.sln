@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validacao_de_nota", "validacao_de_nota\validacao_de_nota.csproj", "{E88C1B57-3EA5-4E44-8CCA-CAB5F93F94FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E88C1B57-3EA5-4E44-8CCA-CAB5F93F94FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88C1B57-3EA5-4E44-8CCA-CAB5F93F94FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88C1B57-3EA5-4E44-8CCA-CAB5F93F94FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88C1B57-3EA5-4E44-8CCA-CAB5F93F94FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813F7073-B2CD-4DFC-A665-A0E57DBAB20B}
+	EndGlobalSection
+EndGlobal

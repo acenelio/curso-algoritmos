@@ -37,7 +37,7 @@ int main(){
         printf("%.1lf ", matriz[indlinha][i]);
     }
 
-	printf("\n\nESCOLHA UMA COLUNA: ");
+	printf("\n\nEscolha uma coluna: ");
 	scanf("%d", &indcoluna);
 
     printf("COLUNA ESCOLHIDA: ");
