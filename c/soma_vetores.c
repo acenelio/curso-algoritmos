@@ -11,13 +11,13 @@ int main(){
     printf("Digite os valores do vetor A:\n");
 
     for (int i=0; i<n; i++) {
-		scanf ("%d", &a[i]);
+		scanf("%d", &a[i]);
     }
 
     printf("Digite os valores do vetor B:\n");
 
     for (int i=0; i<n; i++) {
-        scanf ("%d", &b[i]);
+        scanf("%d", &b[i]);
     }
 
     for (int i=0; i<n; i++) {
@@ -27,7 +27,7 @@ int main(){
     printf("VETOR RESULTANTE:\n");
 
     for (int i=0; i<n; i++) {
-		printf ("%d\n", c[i]);
+		printf("%d\n", c[i]);
     }
 
     return 0;

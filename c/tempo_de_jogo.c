@@ -10,10 +10,10 @@ int main(){
     scanf("%d", &hfinal);
 
     if (hinicial < hfinal) {
-        printf ("O JOGO DUROU %d HORA(S)\n", hfinal - hinicial);
+        printf("O JOGO DUROU %d HORA(S)\n", hfinal - hinicial);
     }
     else {
-		printf ("O JOGO DUROU %d HORA(S)\n", 24 - (hinicial - hfinal));
+		printf("O JOGO DUROU %d HORA(S)\n", 24 - (hinicial - hfinal));
     }
 
 	return 0;

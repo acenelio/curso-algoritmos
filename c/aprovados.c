@@ -17,7 +17,7 @@ int main(){
 		scanf("%lf %lf", &notas1[i], &notas2[i]);
     }
 
-    printf ("Alunos aprovados:\n");
+    printf("Alunos aprovados:\n");
 
     for (int i=0; i<n; i++) {
         media = (notas1[i] + notas2[i]) / 2;

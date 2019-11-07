@@ -14,8 +14,8 @@ int main(){
 
     for (int i=0; i<m; i++) {
         for (int j=0; j<n; j++) {
-            printf ("Elemento [%d,%d]: ", i, j);
-            scanf ("%d", &a[i][j]);
+            printf("Elemento [%d,%d]: ", i, j);
+            scanf("%d", &a[i][j]);
         }
     }
 
@@ -23,8 +23,8 @@ int main(){
 
     for (int i=0; i<m; i++) {
         for (int j=0; j<n; j++) {
-            printf ("Elemento [%d,%d]: ", i, j);
-            scanf ("%d", &b[i][j]);
+            printf("Elemento [%d,%d]: ", i, j);
+            scanf("%d", &b[i][j]);
         }
     }
 

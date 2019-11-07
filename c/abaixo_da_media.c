@@ -22,7 +22,7 @@ int main(){
     media = soma / n;
 
 	printf("\nMEDIA DO VETOR = %.3lf\n", media);
-	printf("ELEMENTOS ABAIXO DA MEDIA:\n", media);
+	printf("ELEMENTOS ABAIXO DA MEDIA:\n");
 
     for (int i=0; i<n; i++) {
         if (vetor[i] < media) {
