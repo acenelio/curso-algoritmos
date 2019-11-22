@@ -5,7 +5,7 @@ m = int(input("Qual a quantidade de linhas da matriz? "))
 n = int(input("Qual a quantidade de colunas da matriz? "))
 
 matriz: [[float]] = [[0 for x in range(n)] for x in range(m)]
-vetor: float = []
+vetor: [float] = [0 for x in range(m)]
 
 for i in range(m):
 	print(f"Digite os elementos da {i + 1} a. linha")
@@ -17,9 +17,9 @@ for i in range(m):
 
 	for j in range(n):
 		somalinha = somalinha + matriz[i][j]
-	vetor.append(somalinha)
+	vetor[i] = somalinha
 
 print("VETOR GERADO:")
 
 for i in range(m):
-	print(f"{vetor[i]:.1f}");
+	print(f"{vetor[i]:.1f}")

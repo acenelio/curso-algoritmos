@@ -2,10 +2,10 @@ n: int; qtdpares: int
 
 n = int(input("Quantos numeros voce vai digitar? "))
 
-vetor: int = []
+vetor: [int] = [0 for x in range(n)]
 
 for i in range(n):
-	vetor.append(int(input("Digite um numero: ")))
+	vetor[i] = int(input("Digite um numero: "))
 
 print("\nNUMEROS PARES:")
 

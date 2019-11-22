@@ -14,4 +14,4 @@ for i in range(x+1, y):
 	if i % 2 != 0:
 		soma = soma + i
 
-print(f"SOMA DOS IMPARES = {soma}");
+print(f"SOMA DOS IMPARES = {soma}")

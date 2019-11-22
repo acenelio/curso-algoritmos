@@ -1,4 +1,4 @@
-salario: float ; novosalario: float ; aumento: float
+salario: float; novosalario: float; aumento: float
 porcentagem: int
 
 salario = float(input("Digite o salario da pessoa: "))

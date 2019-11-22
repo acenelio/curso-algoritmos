@@ -3,12 +3,12 @@ menoraltura: float; maioraltura: float; alturafemMedia: float; alturafemtotal: f
 
 n = int(input("Quantas pessoas serao digitadas? "))
 
-alturas: float = []
-generos: str = [];
+alturas: [float] = [0 for x in range(n)]
+generos: [str] = [0 for x in range(n)]
 
 for i in range(n):
-	alturas.append(float(input(f"Altura da {i+1}a pessoa: ")))
-	generos.append(str(input(f"Genero da {i+1}a pessoa: ")))
+	alturas[i] = float(input(f"Altura da {i+1}a pessoa: "))
+	generos[i] = str(input(f"Genero da {i+1}a pessoa: "))
 
 menoraltura = alturas[0]
 maioraltura = alturas[0]

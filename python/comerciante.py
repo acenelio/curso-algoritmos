@@ -3,19 +3,19 @@ vtotalcompra: float; vtotalvenda: float; lucrototal: float
 
 n = int(input("Serao digitados dados de quantos produtos? "))
 
-nomes: str = []
-pcompra: float = []
-pvenda: float = []
-porcentagemlucros: float = []
+nomes: [str] = [0 for x in range(n)]
+pcompra: [float] = [0 for x in range(n)]
+pvenda: [float] = [0 for x in range(n)]
+porcentagemlucros: [float] = [0 for x in range(n)]
 
 for i in range(n):
 	print(f"Produto {i + 1}:")
-	nomes.append(str(input("Nome: ")))
-	pcompra.append(float(input("Preco de compra: ")))
-	pvenda.append(float(input("Preco de venda: ")))
+	nomes[i] = str(input("Nome: "))
+	pcompra[i] = float(input("Preco de compra: "))
+	pvenda[i] = float(input("Preco de venda: "))
 
 for i in range(n):
-	porcentagemlucros.append((pvenda[i] - pcompra[i]) / pcompra[i] * 100.0)
+	porcentagemlucros[i] = (pvenda[i] - pcompra[i]) / pcompra[i] * 100.0
 
 abaixo = 0
 entre = 0

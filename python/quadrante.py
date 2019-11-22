@@ -14,6 +14,6 @@ while x != 0 and y != 0:
 	else:
 		print("QUADRANTE Q4")
 
-	print("Digite os valores das coordenadas X e Y:");
+	print("Digite os valores das coordenadas X e Y:")
 	x = int(input())
 	y = int(input())

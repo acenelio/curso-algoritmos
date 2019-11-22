@@ -3,14 +3,14 @@ soma: float; media: float
 
 n = int(input("Quantos numeros voce vai digitar? "))
 
-vetor: float = []
+vetor: [float] = [0 for x in range(n)]
 
 for i in range(n):
-	vetor.append(float(input("Digite um numero: ")))
+	vetor[i] = float(input("Digite um numero: "))
 
 soma = 0
 for i in range(n):
-	soma = soma + vetor[i];
+	soma = soma + vetor[i]
 
 media = soma / n
 

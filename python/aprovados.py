@@ -3,15 +3,15 @@ media: float
 
 n = int(input("Quantos alunos serao digitados? "))
 
-nomes: str = []
-notas1: float = []
-notas2: float = []
+nomes: [str] = [0 for x in range(n)]
+notas1: [float] = [0 for x in range(n)]
+notas2: [float] = [0 for x in range(n)]
 
 for i in range(n):
 	print(f"Digite nome, primeira e segunda nota do {i + 1}o aluno:")
-	nomes.append(str(input()))
-	notas1.append(float(input()))
-	notas2.append(float(input()))
+	nomes[i] = str(input())
+	notas1[i] = float(input())
+	notas2[i] = float(input())
 
 print("Alunos aprovados:")
 

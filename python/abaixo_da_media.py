@@ -3,10 +3,10 @@ soma: float; media: float
 
 n = int(input("Quantos elementos vai ter o vetor? "))
 
-vetor:float = []
+vetor: [float] = [0 for x in range(n)]
 
 for i in range(n):
-	vetor.append(float(input("Digite um numero: ")))
+	vetor[i] = float(input("Digite um numero: "))
 
 soma = 0
 
@@ -19,6 +19,6 @@ media = soma / n
 print(f"\nMEDIA DO VETOR = {media:.3f}")
 print("ELEMENTOS ABAIXO DA MEDIA:")
 
-for i in range (n):
+for i in range(n):
 	if vetor[i] < media:
 		print(f"{vetor[i]:.1f}")

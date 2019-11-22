@@ -3,10 +3,10 @@ mediapares: float
 
 n = int(input("Quantos elementos vai ter o vetor? "))
 
-vetor: int = []
+vetor: [int] = [0 for x in range(n)]
 
 for i in range(n):
-	vetor.append(int(input("Digite um numero: ")))
+	vetor[i] = int(input("Digite um numero: "))
 
 npares = 0
 somapares = 0
