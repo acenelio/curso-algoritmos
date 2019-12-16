@@ -8,12 +8,12 @@ Inicio
 
    escreva("Digite um numero inteiro: ")
    leia(X)
-   
-   se X % 2 <> 0 entao
-      X <- X + 1
-   fimse
 
    enquanto X <> 0 faca
+
+      se X % 2 <> 0 entao
+         X <- X + 1
+      fimse
    
       soma <- 5 * X + 20
       escreval("SOMA = ", soma)
