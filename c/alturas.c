@@ -14,7 +14,8 @@ int main(){
     for (int i=0; i<n; i++) {
 		printf("Dados da %da pessoa:\n", i + 1);
         printf("Nome: ");
-        scanf("%s", &nomes[i][0]);
+        fseek(stdin,0,SEEK_END);
+        gets(nomes[i]);
         printf("Idade: ");
         scanf("%d", &idades[i]);
         printf("Altura: ");
