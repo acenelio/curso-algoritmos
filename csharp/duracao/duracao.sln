@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duracao", "duracao\duracao.csproj", "{2C806592-226B-4073-ACB4-ADBAE05CF4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C806592-226B-4073-ACB4-ADBAE05CF4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C806592-226B-4073-ACB4-ADBAE05CF4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C806592-226B-4073-ACB4-ADBAE05CF4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C806592-226B-4073-ACB4-ADBAE05CF4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A8F92AA-99C2-4282-9ECE-539253FBEAD4}
+	EndGlobalSection
+EndGlobal
