@@ -3,7 +3,7 @@ Algoritmo "numeros_pares"
 Var
 
     N, i, qtePares : inteiro
-    vet : vetor [0..99] de real
+    vet : vetor [0..99] de inteiro
 
 Inicio
 
