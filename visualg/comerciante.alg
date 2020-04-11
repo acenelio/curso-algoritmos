@@ -23,13 +23,6 @@ Inicio
         leia(precosVenda[i])
     fimpara
     
-    totalCompra <- 0
-    totalVenda <- 0
-    para i de 0 ate N-1 faca
-        totalCompra <- totalCompra + precosCompra[i]
-        totalVenda <- totalVenda + precosVenda[i]
-    fimpara
-    
     abaixo <- 0
     entre <- 0
     acima <- 0
@@ -47,6 +40,13 @@ Inicio
                 acima <- acima + 1
             fimse
         fimse
+    fimpara
+    
+    totalCompra <- 0
+    totalVenda <- 0
+    para i de 0 ate N-1 faca
+        totalCompra <- totalCompra + precosCompra[i]
+        totalVenda <- totalVenda + precosVenda[i]
     fimpara
     
     totalLucro <- totalVenda - totalCompra
