@@ -1,4 +1,15 @@
 #include <stdio.h>
+#include <string.h>
+
+void limpar_entrada() {
+    char c;
+    while ((c = getchar()) != '\n' && c != EOF) {}
+}
+
+void ler_texto(char *buffer, int length) {
+    fgets(buffer, length, stdin);
+    strtok(buffer, "\n");    
+}
 
 int main(){
     int n, nmenores;
@@ -14,8 +25,8 @@ int main(){
     for (int i=0; i<n; i++) {
 		printf("Dados da %da pessoa:\n", i + 1);
         printf("Nome: ");
-        fseek(stdin,0,SEEK_END);
-        gets(nomes[i]);
+        limpar_entrada();
+        ler_texto(nomes[i], 50);
         printf("Idade: ");
         scanf("%d", &idades[i]);
         printf("Altura: ");
