@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+void limpar_entrada() {
+    char c;
+    while ((c = getchar()) != '\n' && c != EOF) {}
+}
+void ler_texto(char *buffer, int length) {
+    fgets(buffer, length, stdin);
+    strtok(buffer, "\n");
+}
+
 int main(){
     int n;
     double media;
@@ -12,8 +21,8 @@ int main(){
 
     for (int i=0; i<n; i++) {
         printf("Digite nome, primeira e segunda nota do %do aluno:\n", i + 1);
-        fseek(stdin, 0, SEEK_END);
-        gets(nomes[i]);
+        limpar_entrada();
+        ler_texto(nomes[i], 50);
 		scanf("%lf %lf", &notas1[i], &notas2[i]);
     }
 
