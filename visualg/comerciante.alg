@@ -29,7 +29,7 @@ Inicio
     para i de 0 ate N-1 faca
 
         lucro <- precosVenda[i] - precosCompra[i]
-        percentualLucro <- lucro * 100.0 / precosCompra[i];
+        percentualLucro <- lucro * 100.0 / precosCompra[i]
 
         se percentualLucro < 10 entao
             abaixo <- abaixo + 1
