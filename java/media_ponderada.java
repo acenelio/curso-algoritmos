@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class medias_ponderadas {
+public class media_ponderada {
 
 	public static void main(String[] args) {
 
