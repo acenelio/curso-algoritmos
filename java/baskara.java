@@ -28,8 +28,8 @@ public class baskara {
 	        x1 = ((-b) + Math.sqrt(delta)) / (2 * a);
 	        x2 = ((-b) - Math.sqrt(delta)) / (2 * a);
 
-	        System.out.printf("X1 = %.4lf\n", x1);
-	        System.out.printf("X2 = %.4lf\n", x2);
+	        System.out.printf("X1 = %.4f%n", x1);
+	        System.out.printf("X2 = %.4f%n", x2);
 	    }
 
 		sc.close();
